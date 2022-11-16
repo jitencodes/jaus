@@ -1,0 +1,35 @@
+{
+  "name": "tasker",
+  "version": "1.0.0",
+  "description": "Shorten Your Long URLs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jitencodes/Tasker.git"
+  },
+  "keywords": [
+    "url",
+    "shortener",
+    "urlshort",
+    "tasker",
+    "url-shortener"
+  ],
+  "author": "jitendra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jitencodes/Tasker/issues"
+  },
+  "homepage": "https://github.com/jitencodes/Tasker#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.3",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.22",
+    "nanoid": "^3.1.9",
+    "nodemon": "^2.0.4"
+  }
+}
