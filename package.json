@@ -9,21 +9,21 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jitencodes/Jaus.git"
+    "url": "git+https://github.com/jitencodes/Tasker.git"
   },
   "keywords": [
     "url",
     "shortener",
     "urlshort",
-    "Jaus",
+    "tasker",
     "url-shortener"
   ],
   "author": "jitendra",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/jitencodes/Jaus/issues"
+    "url": "https://github.com/jitencodes/Tasker/issues"
   },
-  "homepage": "https://github.com/jitencodes/Jaus#readme",
+  "homepage": "https://github.com/jitencodes/Tasker#readme",
   "dependencies": {
     "dotenv": "^8.2.0",
     "ejs": "^3.1.3",
