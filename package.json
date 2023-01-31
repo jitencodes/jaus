@@ -2,14 +2,17 @@
   "name": "tasker",
   "version": "1.0.0",
   "description": "Shorten Your Long URLs",
-  "main": "app.js",
+  "main": "./src/app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon app.js"
+    "start": "nodemon './src/app.js'",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "build": "webpack --watch"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jitencodes/Jaus.git"
+    "url": "https://github.com/jitencodes/jaus.git"
   },
   "keywords": [
     "url",
@@ -19,11 +22,7 @@
     "url-shortener"
   ],
   "author": "jitendra",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/jitencodes/Jaus/issues"
-  },
-  "homepage": "https://github.com/jitencodes/Jaus#readme",
+  "homepage": "https://jitencodes.github.io/jaus",
   "dependencies": {
     "dotenv": "^8.2.0",
     "ejs": "^3.1.3",
@@ -31,5 +30,10 @@
     "mongoose": "^5.9.22",
     "nanoid": "^3.1.9",
     "nodemon": "^2.0.4"
+  },
+  "devDependencies": {
+  },
+  "browser": {
+    "[module-name]": false   
   }
 }

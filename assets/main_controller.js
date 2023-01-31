@@ -1,4 +1,3 @@
-console.log("Working");
 const form = document.querySelector('.url-form');
 const result = document.querySelector('.result-section');
 const hiddenResult = document.querySelector('.results');
